@@ -11,6 +11,8 @@ fastapi = {extras = ["all"], version = "^0.108.0"}
 sqlalchemy = "^2.0.24"
 psycopg2 = "^2.9.9"
 alembic = "^1.13.1"
+fastapi-users = {extras = ["sqlalchemy"], version = "^12.1.2"}
+asyncpg = "^0.29.0"
 
 
 [build-system]
